@@ -1,0 +1,27 @@
+ng - angular
+ g - generate
+ c - component
+test- name of component
+*********************************************************************
+export class TestComponent implements OnInit {
+
+  constructor() {
+  }
+
+  ngOnInit() {
+  }
+
+}
+************************************************************************
+Interpolation - { {}  }  
+*************************************************************************
+ForEach loop
+<ul>
+    <li *ngFor="let hobby of hobbies"> {{hobby}} </li>
+</ul>
+****************************************************************************
+Create Login Component with out spec.ts file:
+ng g c login --skip-tests
+**********************************************************************
+https://angular.io/api/common/DatePipe
+*********************************************************************
