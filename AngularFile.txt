@@ -2,6 +2,12 @@ ng - angular
  g - generate
  c - component
 test- name of component
+
+
+
+ghngngngh 
+
+
 *********************************************************************
 export class TestComponent implements OnInit {
 
